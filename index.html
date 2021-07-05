@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .body{
+       background-image: url('back.jpeg');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-attachment: fixed;
+       background-size: cover;
+     }
+    .image{
+        margin-top: 40px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 30%;
+        border-radius: 50%;
+    }
+    .iname{
+
+        color:black;
+        font-size: 150%;
+        font-weight: bold;
+        margin-left: 13%;
+        margin-right: 10px;
+
+    }
+    .first{
+        text-align: center;
+    }
+    .center {
+      opacity:1;
+      margin: auto;
+      width: 400px;
+      height: 500px;
+      border: 3px solid black;
+      padding: 10px;
+    }
+    .link{
+        margin-top: 20px;
+        margin-left: 70%;
+        font-weight: bold;
+        font-size:medium;
+    }
+    .link:hover{
+        opacity: 1.5;
+    }
+    .input{
+        padding: 10px;
+    }
+    .button{
+        opacity: 0.7;
+        background-color: rgb(129, 201, 22);
+        margin-left: 55%;
+        margin-right: 20px;
+        height: 20px;
+        width:60px;
+    }
+    .cancel{
+        opacity:0.7;
+        background-color: red;
+        height: 20px;
+        width: 60px;
+    }
+    .button:hover{
+        opacity: 1;
+    }
+    .cancel:hover{
+        opacity: 1;
+    }
+   
+    </style>
+    </head>
+    <body class="body" >
+
+    
+    <h2 class="first">WELCOME!</h2>
+    <h3 class="first">Login</h3>
+    
+    <div class="center">
+        <img  class="image" src="login icon.jpeg" alt="login"><br><br><br>
+
+        <form class="act" action="/index.html">
+            <label class="iname" for="username">Username :</label>
+            <input  class="input" type="text" placeholder="username" name="username"><br><br>
+            <label class="iname" for="pwd">Password   :</label>
+            <input  class="input" type="password" placeholder="pwd" name="password"><br><br><br>
+            <input type="checkbox" value="Remember me" id="rememberme">
+            <b style="margin-right: 30px;">Remember me</b>
+            <input class="button"  type="submit" value="Login">
+            <input class="cancel" type="submit" value="Cancel"><br><br>
+            <a class="link" href="new.html">New user?signup</a>
+        </form>
+          
+    </div>
+    
+</body>
+</html>
